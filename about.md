@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is a development blog for our group project for the module CS2010. In our group project, we are re-creating the board game, Othello, as a video game.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Our intended purpose for this project is to create a 21st century version of Othello in order to revitalise a classic board game for a new generation.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+The team consists of
+- John Berg
+- Arvinder Chatha
+- Zakeria Hirsi
+- Aleksander Kozina
+- Eastwood Nketiah
+- Sailesh Patel
+- James Shorthouse
+- Bruno Simao Zorima
+- Charles Sims
