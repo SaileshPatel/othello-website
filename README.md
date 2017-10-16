@@ -6,12 +6,12 @@ In this website, we will aim to discuss our development of the board game, Othel
 
 ## The Team
 
-John Berg
-Arvinder Chatha
-Zakeria Hirsi
-Aleksander Kozina
-Eastwood Nketiah
-Sailesh Patel
-James Shorthouse
-Bruno Simao Zorima
-Charles Sims
+- John Berg
+- Arvinder Chatha
+- Zakeria Hirsi
+- Aleksander Kozina
+- Eastwood Nketiah
+- Sailesh Patel
+- James Shorthouse
+- Bruno Simao Zorima
+- Charles Sims
