@@ -2,6 +2,7 @@
 	<h1 id="main-header"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a></h1>
 	<nav>
     <ul>
+			<li><a href="/">Home</a></li>
 			{% for page in site.pages %}
 		    {% if page.title %}
 		      <li class="page-links"><a href="{{ page.url | prepend:site.baseurl }}">{{ page.title }}</a></li>
