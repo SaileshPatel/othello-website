@@ -14,11 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Othello Development Blog
-description: Team 4's development blog for the production of a video game version of Othello. 
+description: Team 4's development blog for the production of a video game version of Othello.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
+sass:
+  sass_dir: css
 markdown: kramdown
 theme: minima
 plugins:
