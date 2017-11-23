@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<ul class="portfolio-list">
+  {% for post in site.posts %}
+    <li class="projects">
+    	<a href="{{ post.url }}">{{ post.title }}</a>
+    	<p class="date"><small>{{ post.date | date: "%b %-d, %Y" }}</small></p>
+   		<p>{% if post.summary %}{{ post.summary }}{% else %}{{ post.excerpt | strip_html | strip_newlines | truncate: 240 }}{% endif %}</p>
+    </li>
+  {% endfor %}
+</ul>
