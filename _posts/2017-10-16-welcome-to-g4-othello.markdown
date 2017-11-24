@@ -10,4 +10,6 @@ We're a group of students at University, currently charged with producing a vide
 
 Othello, for those who don't know, is a popular strategy-based board game, where the aim of the game is to have the most pieces on the board, once the board is full.
 
-Othello starts off with four pieces - two white, two black. 
+Othello starts off with four pieces - two white, two black, adjacent to each other. After this, the white piece tends to take the first go.
+
+The only valid moves are moves where a counter of the opponent can be flipped. If this is not possible, then this
