@@ -6,11 +6,11 @@ author: Sailesh Patel
 ---
 Welcome to Group 4's developmental blog for CS2010.
 
-In this blog, we will keep you updated about the development of Othello - our chosen board game to create a video game version for. 
+In this blog, we will keep you updated about the development of Othello - our chosen board game to create a video game version for.
 
 ## Who?
 
-We're a group of students at University, currently charged with producing a video game version of a board game and we've chosen Othello.
+We're a group of students at University, currently charged with producing a video game version of a board game and we've chosen Othello as our game of choice.
 
 ## What?
 
@@ -22,4 +22,4 @@ The only valid moves are moves where a counter of the opponent can be flipped. I
 
 ## Why?
 
-We chose to make a video game implementation of Othello for several reasons.
+We chose to make a video game implementation of Othello for several reasons. 
