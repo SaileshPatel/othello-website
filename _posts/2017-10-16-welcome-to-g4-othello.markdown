@@ -4,7 +4,7 @@ title:  "Welcome to G4 Othello!"
 date:   2017-10-16 16:36:13 +0100
 author: Sailesh Patel
 ---
-Welcome to our development website for CS2010's Group 4.
+Welcome to Group 4's developmental blog for CS2010. In this blog, we will keep you updated about the development of Othello - our chosen board game to create a video game version for. 
 
 ## Who?
 
