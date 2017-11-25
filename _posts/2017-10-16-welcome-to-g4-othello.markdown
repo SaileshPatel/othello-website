@@ -20,4 +20,4 @@ The only valid moves are moves where a counter of the opponent can be flipped. I
 
 ## Why?
 
-We chose to make a video game implementation of Othello for several reasons. 
+We chose to make a video game implementation of Othello for several reasons.
