@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-The team consists of
+The team consists of:
 - John Berg
 - Arvinder Chatha
 - Zakeria Hirsi
