@@ -8,6 +8,9 @@ permalink: /about/
 <div id="about">
   <p>The team consists of:</p>
   <ul>
-    {% for member in site.team %}<li>{{ member.name }}</li>{% endfor %}
+    {% for member in site.team %}
+      <li>{{ member.name }}</li>
+      <li>Roles include: {{ member.role }}</li>
+    {% endfor %}
   </ul>
 </div>
