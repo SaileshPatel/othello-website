@@ -1,0 +1,15 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+<div>
+  <p>The team consists of:</p>
+  <ul>
+    {% for member in site.team %}
+      <li>{{ member.name }}</li>
+      <li>Roles include: {{ member.role }}</li>
+    {% endfor %}
+  </ul>
+</div>

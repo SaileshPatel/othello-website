@@ -18,6 +18,27 @@ description: Team 4's development blog for the production of a video game versio
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+
+team:
+  - name: John Berg
+    role: System Design, Unit Tester, Graphics Designer
+  - name: Arvinder Chatha
+    role: System Design
+  - name: Zakeria Hirsi
+    role: Graphical User Interface & Visual Design, Graphics Designer
+  - name: Aleksander Kozina
+    role:
+  - name: Eastwood Nketiah
+    role: Music Design, Web Development, Video Editor
+  - name: Sailesh Patel
+    role: User Tester, Web Development, Git Flow Monitor
+  - name: James Shorthouse
+    role: Graphical User Interface & Visual Design, System Administrator, Graphics Designer
+  - name: Bruno Simao Zorima
+    role: User Tester, Graphics Designer, Web Development, Video Editor
+  - name: Charles Sims
+    role: Git Flow Monitor
+
 # Build settings
 sass:
   sass_dir: css
