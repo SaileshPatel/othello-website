@@ -1,5 +1,5 @@
 Copyright Group 4
-- You may not modify or redistribute the following
+- You may not modify or redistribute the following:
   - Source code
   - Images
   - Videos
