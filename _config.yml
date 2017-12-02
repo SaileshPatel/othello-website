@@ -21,23 +21,44 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 team:
   - name: John Berg
-    role: System Design, Unit Tester, Graphics Designer
+    roles:
+      - role1: System Design
+      - role2: Unit Tester
+      - role3: Graphics Designer
   - name: Arvinder Chatha
-    role: System Design
+    roles:
+      - role1: System Design
   - name: Zakeria Hirsi
-    role: Graphical User Interface & Visual Design, Graphics Designer
+    roles:
+      - role1: Graphical User Interface Programmer
+      - role2: Graphics Designer
   - name: Aleksander Kozina
-    role:
+    roles:
+      - role1: Artificial Intelligence
   - name: Eastwood Nketiah
-    role: Music Design, Web Development, Video Editor
+    roles:
+      - role1: Music Design
+      - role2: Web Development
+      - role3: Video Editor
   - name: Sailesh Patel
-    role: User Tester, Web Development, Git Flow Monitor
+    roles:
+      - role1: User Tester
+      - role2: Web Development
+      - role3: Git Flow Monitor
   - name: James Shorthouse
-    role: Graphical User Interface & Visual Design, System Administrator, Graphics Designer
+    roles:
+      - role1: Graphical User Interface Programmer
+      - role2: Server Administrator
+      - role3: Graphics Designer
   - name: Bruno Simao Zorima
-    role: User Tester, Graphics Designer, Web Development, Video Editor
+    roles:
+      - role1: User Tester
+      - role2: Graphics Designer
+      - role3: Web Development
+      - role4: Video Editor
   - name: Charles Sims
-    role: Git Flow Monitor
+    roles:
+      - role1: Git Flow Monitor
 
 # Build settings
 sass:

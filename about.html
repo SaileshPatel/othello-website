@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-<div>
-  <p>The team consists of:</p>
-  <ul>
+<p>The team consists of:</p>
+<div class="team">
+  <ul class="team">
     {% for member in site.team %}
-      <li>{{ member.name }}</li>
+      <li class="team">{{ member.name }}</li>
     {% endfor %}
   </ul>
 </div>
