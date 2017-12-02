@@ -16,7 +16,7 @@
 title: Othello Development Blog
 description: Team 4's development blog for the production of a video game version of Othello.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.othellog4.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 team:
