@@ -75,6 +75,10 @@ header a {
   height: 60px;
 }
 
+.post-title {
+  font-size: $font-size * 2.5;
+}
+
 #container {
   padding: 10px;
   flex: auto;
