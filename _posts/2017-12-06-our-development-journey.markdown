@@ -27,7 +27,7 @@ Alongside all of these, Bruno and James worked on making sure that the entire pr
 
 We later realised that this was too in depth, so we decided to delegate based on behaviours instead of classes. Myself and Zak ended up breaking down the logic of the game and then giving this to Charlie who worked on implementing this in the `GameBoard` class, while James and Bruno worked on rendering board pieces on our Swing GUI.
 
-John and Vinny meanwhile worked on the design for the hack, which made sure that everybody understood how the hack version of Othello was meant to work and how the different components interacted with one another.
+John and Vinny meanwhile worked on the design for the hack, which made sure that everybody understood how the hack version of Othello was meant to work and how the different components interacted with one another. Through doing this, the project had an MVC (Model-View-Controller) architecture implemented from start so that
 
 All of this was done in preparation for creating our hack version. The aim of our hack was to prove that the concept behind Othello was achievable. This meant that while our hack was functional, it was far from a finished product.
 
@@ -40,4 +40,20 @@ Meanwhile, James, Zak and Bruno all started to learn more about LibGDX as a pote
 
 The use of LibGDX is intended to improve the quality of Othello, because in the hack version, Othello is a clunky, out-dated game, which is far from user friendly. This meant that in order to improve Othello, we had to ensure that a good graphics library was chosen.
 
-## What's next? 
+After the decision on LibGDX, James, Zak, and Bruno all started to learn more about how LibGDX was implemented in order to fully implement a new graphical interface which was smoother and more efficient than Swing.
+
+## Barriers along the way
+
+One of the toughest barriers was implementing the new graphics with the logic of Othello, because it was a steep learning curve to overcome. This was overcome through the work done prior to this, because we had decided to choose a MVC architecture.
+
+This meant that the team was able to implement the graphics without touching the logic of the game, which meant that there was a reduced level of coupling and a higher level of cohesion. This has led to the code being easier to manipulate and change, as well as finding errors, because now the responsibilities are clear, it is easier to locate the relevant classes for future changes.
+
+Another challenge on the game has been creating a generic way to move tokens on the board, because the movement of tokens need to be generic, in order to implement an Artificial Intelligence player.
+
+Although Artificial Intelligence has not been implemented at this stage, the behaviour for moving tokens still needs to be generic, so that the `GameBoard` does not know if a `Player` or an `AI` player at this point.
+
+## What's next?
+
+We are planning to get try and an Artificial Intelligence mode, so that a player can face off against an artificial intelligence player.
+
+We would also be working implementing additional features, such as a tournament mode, where players can play against each other in teams, and a helper feature so that new players can get help on how to play Othello. 
