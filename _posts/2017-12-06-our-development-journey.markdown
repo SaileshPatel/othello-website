@@ -56,4 +56,4 @@ Although Artificial Intelligence has not been implemented at this stage, the beh
 
 We are planning to get try and an Artificial Intelligence mode, so that a player can face off against an artificial intelligence player.
 
-We would also be working implementing additional features, such as a tournament mode, where players can play against each other in teams, and a helper feature so that new players can get help on how to play Othello. 
+We would also be working implementing additional features, such as a tournament mode, where players can play against each other in teams, and a helper feature so that new players can get help on how to play Othello.

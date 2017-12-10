@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to G4 Othello!"
 date:   2017-10-16 16:36:13 +0100
-author: Eastwood
+author: Eastwood Nketiah
 ---
 Welcome to Group 4's developmental blog for CS2010.
 
