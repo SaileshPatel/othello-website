@@ -30,11 +30,8 @@ h1, h2, h3, h4, h5 {
 body {
   background-color: white;
   margin: 0;
-<<<<<<< HEAD
   padding: 0;
-=======
   padding: 2px 0px 60px;
->>>>>>> 4213bc0f386a60b0995427a389d52d65a2110c29
   height: 100%;
   margin-bottom: 60px;
 }
@@ -76,15 +73,11 @@ header a {
 
 .team > li {
   display: inline-block;
-  // top right bottom left
   padding: 50px;
 }
 
 
-#container {
-  padding: 10px;
-  flex: auto;
-}
+
 
 
 .footer {
@@ -111,7 +104,7 @@ header a {
   top: 0;
   bottom: 0;
   height: 100vh;
-  z-index: -10;
+
   padding: 10px;
   flex: auto;
 }
