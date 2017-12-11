@@ -1,0 +1,14 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+<p>The team consists of:</p>
+<div class="team">
+  <ul class="team">
+    {% for member in site.team %}
+      <li class="team">{{ member.name }}</li>
+    {% endfor %}
+  </ul>
+</div>

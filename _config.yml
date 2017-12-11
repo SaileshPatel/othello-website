@@ -16,7 +16,49 @@
 title: Othello Development Blog
 description: Team 4's development blog for the production of a video game version of Othello.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.othellog4.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+team:
+  - name: John Berg
+    roles:
+      - role1: System Design
+      - role2: Unit Tester
+      - role3: Graphics Designer
+  - name: Arvinder Chatha
+    roles:
+      - role1: System Design
+  - name: Zakeria Hirsi
+    roles:
+      - role1: Graphical User Interface Programmer
+      - role2: Graphics Designer
+  - name: Aleksander Kozina
+    roles:
+      - role1: Artificial Intelligence
+  - name: Eastwood Nketiah
+    roles:
+      - role1: Music Design
+      - role2: Web Development
+      - role3: Video Editor
+  - name: Sailesh Patel
+    roles:
+      - role1: User Tester
+      - role2: Web Development
+      - role3: Git Flow Monitor
+  - name: James Shorthouse
+    roles:
+      - role1: Graphical User Interface Programmer
+      - role2: Server Administrator
+      - role3: Graphics Designer
+  - name: Bruno Simao Zorima
+    roles:
+      - role1: User Tester
+      - role2: Graphics Designer
+      - role3: Web Development
+      - role4: Video Editor
+  - name: Charles Sims
+    roles:
+      - role1: Git Flow Monitor
 
 # Build settings
 sass:
