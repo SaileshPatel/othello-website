@@ -1,14 +1,22 @@
-<header class="container">
-	<h1><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a></h1>    
-	<ul class="nav nav-pill nav-fill">
-			<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+<header class="container-fluid">
+    <nav class="navbar navbar-dark bg-dark">
+    	<a class="navbar-brand" href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a>
+      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="true" aria-label="Toggle navigation">
+        	<span class="navbar-toggler-icon"></span>
+     	</button>
+
+     	<div class="collapse navbar-collapse" id="navbarsExample02">
+     		<ul class="navbar-nav mr-auto">
+     			<li><a href="index.html"></a></li>
 			{% for page in site.pages %}
 		    {% if page.title %}
 		      <li class="nav-item">
 		      	<a class="nav-link" href="{{ page.url | prepend:site.baseurl }}">{{ page.title }}</a>
 		      </li>
 		    {% endif %}
-		  {% endfor %}
-    </ul>  
+		  	{% endfor %}
+     		</ul>
+     	</div>
 
+    </nav>
 </header>
