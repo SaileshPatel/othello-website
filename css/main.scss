@@ -17,6 +17,7 @@ html {
 
 header h1 {
   font-size: $font-size * 4;
+  text-align: center;
 }
 
 header h1 a:hover {
@@ -33,9 +34,6 @@ h1, h2, h3, h4, h5 {
   width: 100%;
 }
 
-.main-header h1{
-  text-align: center;
-}
 
 #introduction {
   text-align: center;
@@ -43,7 +41,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .othello-image {
-  max-width: 100%;
+  max-width: 50%;
   max-height: auto;
   text-align: center;
 }
