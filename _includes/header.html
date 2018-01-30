@@ -1,13 +1,12 @@
-<header>
-	<h1 id="main-header"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a></h1>
-	<nav class="nav">
-    <ul class="nav">
-			<li class="nav"><a href="/">Home</a></li>
-			{% for page in site.pages %}
-		    {% if page.title %}
-		      <li class="nav"><a href="{{ page.url | prepend:site.baseurl }}">{{ page.title }}</a></li>
-		    {% endif %}
-		  {% endfor %}
-    </ul>
-  </nav>
+<header class="container-fluid header">
+	    <h1 class="main-header"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a></h1>
+			<ul class="nav nav-tabs justify-content-center">
+		 		{% for page in site.pages %}
+			    {% if page.title %}
+			      <li class="nav-item">
+			      	<a class="nav-link" href="{{ page.url | prepend:site.baseurl }}">{{ page.title }}</a>
+			      </li>
+			    {% endif %}
+			  	{% endfor %}
+			</ul>    	
 </header>
