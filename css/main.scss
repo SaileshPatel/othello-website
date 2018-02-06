@@ -7,6 +7,10 @@ $header-fonts: "Roboto", "Open Sans", serif;
 $regular-fonts: "Open Sans", "Roboto", Arial;
 $font-size: 14px;
 
+* {
+ background-color: #F8F8FF;
+}
+
 html {
   margin: auto;
   padding: 0;
@@ -36,9 +40,13 @@ h1, h2, h3, h4, h5 {
 
 
 #introduction {
+  color: white;
   text-align: center;
   padding: 2 2 2 2;
+  background-image: url("../OthelloBoard.png");
 }
+
+
 
 .othello-image {
   max-width: 50%;
