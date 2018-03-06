@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Major Movement"
-date:   2018-03-08 17:00:00 +0000
+date:   2018-03-06 11:00:00 +0000
 author: Sailesh Patel
 ---
 
@@ -29,4 +29,4 @@ The team also discussed the possibility of sound effects being used. Eastwood ha
 Eastwood also made the background music for Othello, so we've got high hopes for the sound effects for this game.
 
 ## Table Background
-We also said that we wanted to replace the background with a wooden background. Zak has already found a wooden background we can use and has said that he can implement this very quickly. 
+We also said that we wanted to replace the background with a wooden background. Zak has already found a wooden background we can use and has said that he can implement this very quickly.
